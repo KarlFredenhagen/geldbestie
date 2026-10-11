@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Geldbestie</title>
-<meta name="theme-color" content="#16a34a">
+<meta name="theme-color" content="#f3f8f4" media="(prefers-color-scheme:light)">
+<meta name="theme-color" content="#0d1a12" media="(prefers-color-scheme:dark)">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icon-192.png">
 <link rel="apple-touch-icon" href="icon-192.png">
@@ -42,7 +43,7 @@ input:focus{outline:2px solid var(--g);border-color:transparent}
 .sum span:first-child small{color:var(--mut);margin-left:6px}
 .total{margin-top:16px;width:100%;padding:16px;border:2px solid var(--g);border-radius:18px;background:none;display:flex;align-items:center;justify-content:space-between;font-size:1.5rem;font-weight:700;color:var(--gd)}
 .hint{margin:6px 0 0;text-align:center;color:var(--mut);font-size:.8rem}
-#chart{width:100%;height:auto}
+#chart{width:100%;height:auto;stroke:none}
 #chart text{fill:var(--mut);font-size:11px;text-anchor:middle}
 #chart rect{fill:var(--g)}
 #toast{position:fixed;left:50%;bottom:100px;transform:translateX(-50%);background:var(--tx);color:var(--bg);padding:10px 16px;border-radius:99px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:99}
