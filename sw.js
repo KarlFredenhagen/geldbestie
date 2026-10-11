@@ -1,5 +1,5 @@
 // shortcut: cache-first, bei Änderungen an der App die Version V erhöhen
-const V = 'geldbestie-v4';
+const V = 'geldbestie-v5';
 const FILES = ['./', 'index.html', 'manifest.json', 'icon-192.png', 'icon-512.png'];
 self.addEventListener('install', e => e.waitUntil(caches.open(V).then(c => c.addAll(FILES))));
 self.addEventListener('activate', e => e.waitUntil(
